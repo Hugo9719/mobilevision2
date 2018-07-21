@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: lightcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: yellowgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    text-align: center;
+}
+
+/* Formatação textos de cima */
+.link-cabecalho {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: rgb(17, 146, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav a:hover {
+    color: black;
+}
+nav img {
+    position: absolute;
+    top: 2.5px;
+    left: 30px;
+    height: 80px;
+}
+
+#botoes {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+button {
+    background-color: black;
+    border: 1px solid white;
+    color: whitesmoke;
+    padding: 10px;
+}
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+img {
+    height: 200px;
+    width:auto;
+}
+
+section {
+    margin: 30px auto;
+    display: flex;
+    width: 80vw;
+}
+
+p {
+    margin: 0 0 0 10px;
+}
+
+footer {
+    text-decoration: none;
+}
+footer a {
+    text-decoration: none;
+}
+
+#contat {
+    position: absolute;
+    bottom: 0;    
+}
+#contato img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+
+#nos {
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#nos .contato {
+    background-color: lightgreen;
+}
+#nos img { 
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.download {
+    width: 200px;
+    height: 50px;
+}
+
+.desc {
+    margin-right: 10px;
+}
